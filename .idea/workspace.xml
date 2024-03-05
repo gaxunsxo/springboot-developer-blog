@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="974c28d4-4700-458d-bc67-68a70a87b2d7" name="Changes" comment="d">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/controller/UserApiControlller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="974c28d4-4700-458d-bc67-68a70a87b2d7" name="Changes" comment="Chapter8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/controller/UserApiControlller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,9 +160,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BlogApiControllerTest" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
-        <item itemvalue="Gradle.BlogApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +181,8 @@
       <workItem from="1709011732190" duration="3875000" />
       <workItem from="1709350139918" duration="11747000" />
       <workItem from="1709441847688" duration="4245000" />
-      <workItem from="1709643324937" duration="3985000" />
+      <workItem from="1709643324937" duration="5069000" />
+      <workItem from="1709648508395" duration="2714000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -203,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709465898597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chapter8">
+      <option name="closed" value="true" />
+      <created>1709647598986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647598986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +208,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="d" />
-    <option name="LAST_COMMIT_MESSAGE" value="d" />
+    <MESSAGE value="Chapter8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

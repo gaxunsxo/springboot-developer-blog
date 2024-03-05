@@ -31,12 +31,12 @@ public class WebSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
         return http
-                .authorizeHttpRequests() //3. 인증, 인가 설정
+                .authorizeRequests() //3. 인증, 인가 설정
                 .requestMatchers("/login", "/signup", "/user").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin() //4. 폼 기반 로그인 설정
-                .loginPage("login")
+                .loginPage("/login")
                 .defaultSuccessUrl("/articles")
                 .and()
                 .logout() //5. 로그아웃 설정
@@ -49,8 +49,7 @@ public class WebSecurityConfig {
 
     //7. 인증 관리자 관련 설정
     @Bean
-    public AuthenticationManager authenticationManager(HttpSecurity http,
-                                                       BCryptPasswordEncoder bCryptPasswordEncoder, UserDetailService userDetailService)
+    public AuthenticationManager authenticationManager(HttpSecurity http, BCryptPasswordEncoder bCryptPasswordEncoder, UserDetailService userDetailService)
         throws Exception{
         return http.getSharedObject(AuthenticationManagerBuilder.class)
                 .userDetailsService(userService) //8. 사용자 정보 서비스 설정
