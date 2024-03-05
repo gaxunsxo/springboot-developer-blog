@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="974c28d4-4700-458d-bc67-68a70a87b2d7" name="Changes" comment="Chapter8">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/jwt/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/controller/TokenApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/dto/CreateAccessTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/dto/CreateAccessTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/seogaeun/springbootdeveloper/config/jwt/JwtFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/seogaeun/springbootdeveloper/config/jwt/TokenProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/seogaeun/springbootdeveloper/controller/TokenApitControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/controller/UserApiControlller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/seogaeun/springbootdeveloper/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -182,7 +196,7 @@
       <workItem from="1709350139918" duration="11747000" />
       <workItem from="1709441847688" duration="4245000" />
       <workItem from="1709643324937" duration="5069000" />
-      <workItem from="1709648508395" duration="2714000" />
+      <workItem from="1709648508395" duration="7917000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -200,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709647598986</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter8">
+      <option name="closed" value="true" />
+      <created>1709651458294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709651458294</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -13,3 +13,7 @@ spring:
   h2: #2. 콘솔 활성화
     console:
       enabled: true
+
+  jwt:
+    issuer: ajufresh@gmail.com
+    secret_key: study-springboot
