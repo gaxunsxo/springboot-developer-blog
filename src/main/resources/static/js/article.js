@@ -14,7 +14,7 @@ if (deleteButton) {
             location.replace('/articles');
         }
 
-        httpRequest('DELETE',`/api/articles/` + id, null, success, fail);
+        httpRequest('DELETE',`/api/articles/${id}`, null, success, fail);
     });
 }
 
@@ -33,15 +33,15 @@ if (modifyButton) {
 
         function success() {
             alert('수정 완료되었습니다.');
-            location.replace(`/articles/` + id);
+            location.replace(`/articles/${id}`);
         }
 
         function fail() {
             alert('수정 실패했습니다.');
-            location.replace(`/articles/` + id);
+            location.replace(`/articles/${id}`);
         }
 
-        httpRequest('PUT',`/api/articles/` + id, body, success, fail);
+        httpRequest('PUT',`/api/articles/${id}`, body, success, fail);
     });
 }
 

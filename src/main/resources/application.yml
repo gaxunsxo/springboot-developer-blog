@@ -5,27 +5,23 @@ spring:
       hibernate:
         format_sql: true
     defer-datasource-initialization: true
-
-  datasource: #1. 데이터베이스 정보 추가
+  datasource:
     url: jdbc:h2:mem:testdb
     username: sa
-
-  h2: #2. 콘솔 활성화
+  h2:
     console:
       enabled: true
-    security:
-      oauth2:
-        client:
-          registration:
-            google:
-              #인증값 절대로 외부에 공개하지 말 것
-              client-id: 474949268350-l8dueo1qpr9bb09h1n7rcdbfok2hr9j6.apps.googleusercontent.com
-              client-secret: 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
-              scope:
-                - email
-                - profile
-
-  jwt:
-    issuer: ajufresh@gmail.com
-    secret_key: study-springboot
-
+  security: #구글 로그인 오류 해결: spring안에 security가 존재해야 한다!
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 474949268350-l8dueo1qpr9bb09h1n7rcdbfok2hr9j6.apps.googleusercontent.com
+            client-secret: GOCSPX-x4fXLs0lenhEWuPNsiUdW1fuxqj
+            redirect-uri : https://{baseHost}{basePort}/login/oauth2/code/google
+            scope:
+              - email
+              - profile
+jwt:
+  issuer: ajufresh@gmail.com
+  secret_key: study-springboot
